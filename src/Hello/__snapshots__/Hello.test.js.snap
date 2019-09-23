@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hello should render correctly with "name" prop 1`] = `
+<Fragment>
+  <h1>
+    Roberto
+  </h1>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Toggle text
+  </button>
+</Fragment>
+`;
+
+exports[`Hello should render correctly with no props 1`] = `
+<Fragment>
+  <h1>
+    Vinícius
+  </h1>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Toggle text
+  </button>
+</Fragment>
+`;
+
+exports[`Hello should toggle the text on button click 1`] = `
+<Fragment>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Toggle text
+  </button>
+</Fragment>
+`;
+
+exports[`Hello should toggle the text on button click 2`] = `
+<Fragment>
+  <h1>
+    Vinícius
+  </h1>
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Toggle text
+  </button>
+</Fragment>
+`;
