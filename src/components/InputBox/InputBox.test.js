@@ -15,11 +15,14 @@ describe('InputBox', () => {
 
   // Call the callback
   it('should call the callback function with the value of the input', () => {
+    const event = { preventDefault: jest.fn() };
     const component = shallow(<InputBox callback={clickFn} />);
 
     component.find('input').simulate('change', { target: { value: 'Vinícius' } });
-    component.find('button').simulate('click');
+    component.find('form').simulate('submit', event);
 
+    expect(event.preventDefault).toHaveBeenCalledTimes(1);
+    expect(clickFn).toHaveBeenCalledTimes(1);
     expect(clickFn).toHaveBeenCalledWith('Vinícius');
   });
 });

@@ -1,24 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`InputBox should render properly with 'callback' prop 1`] = `
-<section>
-  <label
-    htmlFor="text"
-  >
-    Texto:
-    <input
-      id="text"
-      name="Text"
-      onChange={[Function]}
-      required={true}
-      type="text"
-    />
-  </label>
+<form
+  action="#"
+  onSubmit={[Function]}
+>
+  <input
+    name="text"
+    onChange={[Function]}
+    required={true}
+    type="text"
+  />
   <button
-    onClick={[Function]}
-    type="button"
+    type="submit"
   >
     Enviar
   </button>
-</section>
+</form>
 `;

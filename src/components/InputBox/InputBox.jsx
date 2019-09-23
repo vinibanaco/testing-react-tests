@@ -9,18 +9,17 @@ function InputBox({ callback }) {
     setText(value);
   }
 
-  function handleClick() {
+  function handleSubmit(e) {
+    e.preventDefault();
+
     return callback(text);
   }
 
   return (
-    <section>
-      <label htmlFor="text">
-        Texto:
-        <input type="text" id="text" name="Text" onChange={handleTextChange} required />
-      </label>
-      <button type="button" onClick={handleClick}>Enviar</button>
-    </section>
+    <form action="#" onSubmit={handleSubmit}>
+      <input type="text" name="text" onChange={handleTextChange} required />
+      <button type="submit">Enviar</button>
+    </form>
   );
 }
 
