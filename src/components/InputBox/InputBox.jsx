@@ -17,8 +17,35 @@ function InputBox({ callback }) {
 
   return (
     <form action="#" onSubmit={handleSubmit}>
-      <input type="text" name="text" onChange={handleTextChange} required />
-      <button type="submit">Enviar</button>
+      <input
+        type="text"
+        name="text"
+        onChange={handleTextChange}
+        required
+        style={{
+          border: '1px solid #999',
+          borderRadius: '4px 0 0 4px',
+          fontSize: '16px',
+          padding: '7px',
+        }}
+      />
+      <button
+        type="submit"
+        style={{
+          backgroundColor: '#e0e0e0',
+          border: '1px solid #999',
+          borderRadius: '0 4px 4px 0',
+          fontSize: '14px',
+          /**
+           * 6px de padding desejado + 2 * 1px para
+           * compensar o tamanho da fonte
+           */
+          padding: '8px 14px',
+          marginLeft: '-1px',
+        }}
+      >
+        Enviar
+      </button>
     </form>
   );
 }

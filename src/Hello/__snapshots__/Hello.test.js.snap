@@ -1,86 +1,314 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Hello should render correctly with "name" prop 1`] = `
-<Fragment>
-  <h1>
-    Roberto
-  </h1>
-  <button
-    onClick={[Function]}
-    type="button"
-  >
-    Toggle text
-  </button>
-  <InputBox
-    callback={[Function]}
+<section
+  style={
+    Object {
+      "margin": "40px",
+    }
+  }
+>
+  <div
     style={
       Object {
-        "marginTop": "40px",
+        "alignItems": "center",
+        "display": "flex",
+        "marginBottom": "35px",
       }
     }
-  />
-</Fragment>
+  >
+    <button
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#e0e0e0",
+          "border": "1px solid #888",
+          "borderRadius": "4px",
+          "fontSize": "14px",
+          "marginRight": "15px",
+          "padding": "10px 16px",
+        }
+      }
+      type="button"
+    >
+      Esconder
+    </button>
+    <h1
+      style={
+        Object {
+          "fontSize": "28px",
+          "fontWeight": "normal",
+          "margin": 0,
+        }
+      }
+    >
+      Olá, 
+      Roberto
+    </h1>
+  </div>
+  <section
+    style={
+      Object {
+        "border": "1px solid #888888",
+        "borderRadius": "4px",
+        "display": "inline-block",
+        "padding": "15px",
+      }
+    }
+  >
+    <h2
+      style={
+        Object {
+          "fontSize": "18px",
+          "margin": "0 0 20px",
+        }
+      }
+    >
+      Altere o seu nome
+    </h2>
+    <InputBox
+      callback={[Function]}
+      style={
+        Object {
+          "marginTop": "40px",
+        }
+      }
+    />
+  </section>
+</section>
 `;
 
 exports[`Hello should render correctly with no props 1`] = `
-<Fragment>
-  <h1>
-    Vinícius
-  </h1>
-  <button
-    onClick={[Function]}
-    type="button"
-  >
-    Toggle text
-  </button>
-  <InputBox
-    callback={[Function]}
+<section
+  style={
+    Object {
+      "margin": "40px",
+    }
+  }
+>
+  <div
     style={
       Object {
-        "marginTop": "40px",
+        "alignItems": "center",
+        "display": "flex",
+        "marginBottom": "35px",
       }
     }
-  />
-</Fragment>
+  >
+    <button
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#e0e0e0",
+          "border": "1px solid #888",
+          "borderRadius": "4px",
+          "fontSize": "14px",
+          "marginRight": "15px",
+          "padding": "10px 16px",
+        }
+      }
+      type="button"
+    >
+      Esconder
+    </button>
+    <h1
+      style={
+        Object {
+          "fontSize": "28px",
+          "fontWeight": "normal",
+          "margin": 0,
+        }
+      }
+    >
+      Olá, 
+      anônimo
+    </h1>
+  </div>
+  <section
+    style={
+      Object {
+        "border": "1px solid #888888",
+        "borderRadius": "4px",
+        "display": "inline-block",
+        "padding": "15px",
+      }
+    }
+  >
+    <h2
+      style={
+        Object {
+          "fontSize": "18px",
+          "margin": "0 0 20px",
+        }
+      }
+    >
+      Altere o seu nome
+    </h2>
+    <InputBox
+      callback={[Function]}
+      style={
+        Object {
+          "marginTop": "40px",
+        }
+      }
+    />
+  </section>
+</section>
 `;
 
 exports[`Hello should toggle the text on button click 1`] = `
-<Fragment>
-  <button
-    onClick={[Function]}
-    type="button"
-  >
-    Toggle text
-  </button>
-  <InputBox
-    callback={[Function]}
+<section
+  style={
+    Object {
+      "margin": "40px",
+    }
+  }
+>
+  <div
     style={
       Object {
-        "marginTop": "40px",
+        "alignItems": "center",
+        "display": "flex",
+        "marginBottom": "35px",
       }
     }
-  />
-</Fragment>
+  >
+    <button
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#e0e0e0",
+          "border": "1px solid #888",
+          "borderRadius": "4px",
+          "fontSize": "14px",
+          "marginRight": "15px",
+          "padding": "10px 16px",
+        }
+      }
+      type="button"
+    >
+      Esconder
+    </button>
+    <h1
+      style={
+        Object {
+          "fontSize": "28px",
+          "fontWeight": "normal",
+          "margin": 0,
+          "opacity": 0,
+        }
+      }
+    >
+      Olá, 
+      anônimo
+    </h1>
+  </div>
+  <section
+    style={
+      Object {
+        "border": "1px solid #888888",
+        "borderRadius": "4px",
+        "display": "inline-block",
+        "padding": "15px",
+      }
+    }
+  >
+    <h2
+      style={
+        Object {
+          "fontSize": "18px",
+          "margin": "0 0 20px",
+        }
+      }
+    >
+      Altere o seu nome
+    </h2>
+    <InputBox
+      callback={[Function]}
+      style={
+        Object {
+          "marginTop": "40px",
+        }
+      }
+    />
+  </section>
+</section>
 `;
 
 exports[`Hello should toggle the text on button click 2`] = `
-<Fragment>
-  <h1>
-    Vinícius
-  </h1>
-  <button
-    onClick={[Function]}
-    type="button"
-  >
-    Toggle text
-  </button>
-  <InputBox
-    callback={[Function]}
+<section
+  style={
+    Object {
+      "margin": "40px",
+    }
+  }
+>
+  <div
     style={
       Object {
-        "marginTop": "40px",
+        "alignItems": "center",
+        "display": "flex",
+        "marginBottom": "35px",
       }
     }
-  />
-</Fragment>
+  >
+    <button
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#e0e0e0",
+          "border": "1px solid #888",
+          "borderRadius": "4px",
+          "fontSize": "14px",
+          "marginRight": "15px",
+          "padding": "10px 16px",
+        }
+      }
+      type="button"
+    >
+      Esconder
+    </button>
+    <h1
+      style={
+        Object {
+          "fontSize": "28px",
+          "fontWeight": "normal",
+          "margin": 0,
+        }
+      }
+    >
+      Olá, 
+      anônimo
+    </h1>
+  </div>
+  <section
+    style={
+      Object {
+        "border": "1px solid #888888",
+        "borderRadius": "4px",
+        "display": "inline-block",
+        "padding": "15px",
+      }
+    }
+  >
+    <h2
+      style={
+        Object {
+          "fontSize": "18px",
+          "margin": "0 0 20px",
+        }
+      }
+    >
+      Altere o seu nome
+    </h2>
+    <InputBox
+      callback={[Function]}
+      style={
+        Object {
+          "marginTop": "40px",
+        }
+      }
+    />
+  </section>
+</section>
 `;

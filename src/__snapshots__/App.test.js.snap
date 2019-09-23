@@ -2,6 +2,6 @@
 
 exports[`App should render correctly 1`] = `
 <Hello
-  name="Vinícius"
+  name="anônimo"
 />
 `;

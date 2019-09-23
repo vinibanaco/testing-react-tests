@@ -9,9 +9,27 @@ exports[`InputBox should render properly with 'callback' prop 1`] = `
     name="text"
     onChange={[Function]}
     required={true}
+    style={
+      Object {
+        "border": "1px solid #999",
+        "borderRadius": "4px 0 0 4px",
+        "fontSize": "16px",
+        "padding": "7px",
+      }
+    }
     type="text"
   />
   <button
+    style={
+      Object {
+        "backgroundColor": "#e0e0e0",
+        "border": "1px solid #999",
+        "borderRadius": "0 4px 4px 0",
+        "fontSize": "14px",
+        "marginLeft": "-1px",
+        "padding": "8px 14px",
+      }
+    }
     type="submit"
   >
     Enviar
