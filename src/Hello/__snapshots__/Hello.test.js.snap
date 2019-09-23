@@ -11,6 +11,14 @@ exports[`Hello should render correctly with "name" prop 1`] = `
   >
     Toggle text
   </button>
+  <InputBox
+    callback={[Function]}
+    style={
+      Object {
+        "marginTop": "40px",
+      }
+    }
+  />
 </Fragment>
 `;
 
@@ -25,6 +33,14 @@ exports[`Hello should render correctly with no props 1`] = `
   >
     Toggle text
   </button>
+  <InputBox
+    callback={[Function]}
+    style={
+      Object {
+        "marginTop": "40px",
+      }
+    }
+  />
 </Fragment>
 `;
 
@@ -36,6 +52,14 @@ exports[`Hello should toggle the text on button click 1`] = `
   >
     Toggle text
   </button>
+  <InputBox
+    callback={[Function]}
+    style={
+      Object {
+        "marginTop": "40px",
+      }
+    }
+  />
 </Fragment>
 `;
 
@@ -50,5 +74,13 @@ exports[`Hello should toggle the text on button click 2`] = `
   >
     Toggle text
   </button>
+  <InputBox
+    callback={[Function]}
+    style={
+      Object {
+        "marginTop": "40px",
+      }
+    }
+  />
 </Fragment>
 `;
