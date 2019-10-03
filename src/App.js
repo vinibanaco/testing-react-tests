@@ -3,9 +3,7 @@ import React from 'react';
 import Hello from './Hello/Hello';
 
 function App() {
-  return (
-    <Hello />
-  );
+  return <Hello />;
 }
 
 export default App;

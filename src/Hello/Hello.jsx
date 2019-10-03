@@ -74,8 +74,13 @@ function Hello({ name }) {
           borderRadius: '4px',
         }}
       >
-        <h2 style={{ fontSize: '18px', margin: '0 0 20px' }}>Altere o seu nome</h2>
-        <InputBox style={{ marginTop: '40px' }} callback={changeTitle} />
+        <h2 style={{ fontSize: '18px', margin: '0 0 20px' }}>
+          Altere o seu nome
+        </h2>
+        <InputBox
+          style={{ marginTop: '40px' }}
+          callback={changeTitle}
+        />
       </section>
     </section>
   );
